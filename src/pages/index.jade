@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        main  
+            include ../blocks/header/header.jade
+            include ../blocks/title/title.jade
+            section.wrapper
+                include ../blocks/breadcrumbs/breadcrumbs.jade
+                include ../blocks/content/content.jade
+                include ../blocks/filter/filter.jade
+            section.wrapper.wrapper__big
+                include ../blocks/products/products.jade
+            include ../blocks/footer/footer.jade

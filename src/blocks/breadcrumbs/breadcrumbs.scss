@@ -1,0 +1,18 @@
+.breadcrumbs{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.breadcrumbs__name, .breadcrumbs__mark{
+    width: max-content;
+    display: inline-block;
+    color: #a19f9e;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.68px;
+}
+
+.breadcrumbs__mark{
+    margin: 0px 6px;
+}

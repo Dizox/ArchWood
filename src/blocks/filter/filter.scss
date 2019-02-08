@@ -1,0 +1,66 @@
+.filter{
+    width: 100%;
+    margin-bottom: 52px;
+}
+
+.filter__settings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter__settingsItem{
+    margin-bottom: 30px;
+}
+
+.filter__settingsItem_last{
+    margin-right: 0px;
+}
+
+.filter__name{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    padding-bottom: 10px;
+}
+
+.filter__select{
+    width: 290px;
+    height: 50px;
+    padding-left: 21px;
+    padding-top: 4px;
+    font-weight: 500;
+    border: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    border-radius: 0px;
+}
+
+.filter__option{
+    line-height: 20px;
+}
+
+.filter__buttons{
+    width: 242px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.filter__rollUp, .filter__clear{
+    padding-bottom: 6px;
+    letter-spacing: 1.02px;
+    font-weight: 500;
+    color: #8c8c8c;
+    text-transform: uppercase;
+    border-bottom: 1px solid #8c8c8c;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nice-select.filter__select.open{
+    border: 1px solid #8c8c8c;
+}

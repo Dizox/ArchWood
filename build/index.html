@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Webpage</title>
+		<!--link(rel="icon",type="image/ico",href="img/favicon.ico")-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Awesome webpage">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<main> 
+			<noscript>
+				<p>Please enable Javascript</p>
+			</noscript>
+			<header class="header">
+				<div class="header__wrapper">
+					<div class="header__column header__column_leftColumn"><a href="#" class="header__link"><span class="header__circle"></span><span class="header__type">Паркет</span></a><a href="#" class="header__link"><span class="header__circle"></span><span class="header__type">Керамика</span></a></div>
+					<div class="header__column header__column_centerColumn"><a href="#" class="header__info">О нас</a><a href="#" class="header__info">Контакты</a><a href="#" class="header__info">Дизайнерам и архитекторам</a></div>
+					<div class="header__column header__column_rightColumn">
+						<div class="header__phoneNumber"> <span>+7 (495) </span><span class="header__phoneNumberBold">555-55-55</span></div>
+						<button class="header__call">Обратный звонок</button>
+					</div>
+				</div>
+			</header>
+			<section class="title">
+				<div class="title__container">
+					<div class="title__logo"></div>
+					<div class="title__tagline">
+						<hr class="title__line">
+						<div class="title__info"><span class="title__taglineName">Паркет</span><span class="title__circle"></span><span class="title__taglineName">Керамика</span></div>
+						<hr class="title__line">
+					</div>
+				</div>
+			</section>
+			<section class="wrapper">
+				<div class="breadcrumbs"><a href="#" class="breadcrumbs__name">Главная</a><span class="breadcrumbs__mark">—</span><a href="#" class="breadcrumbs__name">Паркет</a><span class="breadcrumbs__mark">—</span><a href="#" class="breadcrumbs__name">Паркетная доска</a></div>
+				<section class="content">
+					<div class="content__title">Паркетная доска</div>
+					<div class="content__text">Паркетная доска занимает особое место среди материалов, используемых для отделки полов. Она сумела сохранить в себе лучшие качества, присущее традиционному штучному паркету и обрести повышенные эксплуатационные характеристики, свойственные инновационным продуктам. Паркетная доска универсальна. Великолепные напольные покрытия, созданные из нее, украшают роскошные особняки, обычные квартиры, концертные, банкетные залы, офисы во многих городах России и других стран мира. Выгодно приобрести замечательный материал в городе Москва предлагает компания ParketDocka.ru. Мы работаем в этом сегменте рынка уже около 17 лет, входим в число лидеров продаж паркетной доски в стране и сможем предложить вам именно то, что нужно!</div>
+				</section>
+				<div class="filter">
+					<div class="filter__settings">
+						<div class="filter__settingsItem">
+							<div class="filter__name">Длина</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="L_00cm" class="filter__option">100 см</option>
+								<option value="L_110cm" class="filter__option">110 см</option>
+								<option value="L_150cm" class="filter__option">150 см</option>
+								<option value="L_200cm" class="filter__option">200 см</option>
+								<option value="L_250cm" class="filter__option">250 см</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem">
+							<div class="filter__name">Ширина</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="W_207cm" class="filter__option">20.7 см</option>
+								<option value="W_13cm" class="filter__option">13 см</option>
+								<option value="W_19cm" class="filter__option">19 см</option>
+								<option value="W_125cm" class="filter__option">12.5 см</option>
+								<option value="W_164cm" class="filter__option">16.4 см</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem">
+							<div class="filter__name">Толщина</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="T_7mm" class="filter__option">7 мм</option>
+								<option value="T_10mm" class="filter__option">10 мм</option>
+								<option value="T_12mm" class="filter__option">12 мм</option>
+								<option value="T_13mm" class="filter__option">13 мм</option>
+								<option value="T_15mm" class="filter__option">15 мм </option>
+							</select>
+						</div>
+						<div class="filter__settingsItem filter__settingsItem_last">
+							<div class="filter__name">Бренд</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="B_Black_forest" class="filter__option">Black forest</option>
+								<option value="B_Vinci" class="filter__option">Vinci</option>
+								<option value="B_Biehrer" class="filter__option">Biehrer</option>
+								<option value="B_Old_floor" class="filter__option">Old floor</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem">
+							<div class="filter__name">Тип</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="Board_Mas" class="filter__option">Массивная доска</option>
+								<option value="Board_Eng" class="filter__option">Инженерная доска</option>
+								<option value="Board_Par" class="filter__option">Паркетная доска</option>
+								<option value="Board_Ter" class="filter__option">Террасная доска</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem">
+							<div class="filter__name">Порода дерева</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="Wood_Nut" class="filter__option">Орех</option>
+								<option value="Wood_Oak" class="filter__option">Дуб</option>
+								<option value="Wood_Ash" class="filter__option">Ясень</option>
+								<option value="Wood_Teak" class="filter__option">Тик</option>
+								<option value="Wood_Larch" class="filter__option">Лиственница</option>
+								<option value="Wood_Zebrano" class="filter__option">Зебрано</option>
+								<option value="Wood_Eben" class="filter__option">Эбен</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem">
+							<div class="filter__name">Селекция</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="Sel_Rustic" class="filter__option">Рустик</option>
+								<option value="Sel_Select" class="filter__option">Селект</option>
+								<option value="Sel_nature" class="filter__option">Натур</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem filter__settingsItem_last">
+							<div class="filter__name">Финишная обработка</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="Finish_varnish" class="filter__option">Лак</option>
+								<option value="Finish_oil" class="filter__option">Масло на основе воска</option>
+							</select>
+						</div>
+						<div class="filter__settingsItem">
+							<div class="filter__name">Цвет</div>
+							<select class="filter__select">
+								<option value="" selected class="filter__option">Все</option>
+								<option value="Color_light" class="filter__option">Светлый</option>
+								<option value="Color_dark" class="filter__option">Темный</option>
+								<option value="Color_color" class="filter__option">Цветной</option>
+							</select>
+						</div>
+					</div>
+					<div class="filter__buttons">
+						<div class="filter__rollUp">Свернуть</div>
+						<div class="filter__clear">Очистить</div>
+					</div>
+				</div>
+			</section>
+			<section class="wrapper wrapper__big">
+				<div id="easyPaginate" class="products">
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска            </div>
+					</div>
+					<!--page 2-->
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<!--page 3-->
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска         </div>
+					</div>
+					<!--page 4-->
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска    </div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<!--page 5-->
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood1.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Европейский дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood2.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Континентальный дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card">
+						<div style="background-image: url(img/wood3.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска</div>
+					</div>
+					<div class="products__card products__card_lastItem">
+						<div style="background-image: url(img/wood4.jpg);" class="products__cardImg"><a href="#" class="products__about">Подробнее</a></div>
+						<div class="products__cardNameCompany">Ebony&Co</div>
+						<div class="products__cardNameProduct">Амриканский белый дуб</div>
+						<div class="products__cardNameType">тип: массивная доска         </div>
+					</div>
+				</div>
+			</section>
+			<div class="footer">
+				<div class="footer__wrapper">
+					<div class="footer__containerLeft"><a href="#" class="footer__logo"></a>
+						<div class="footer__info">
+							<div>Саввинская набережная, 23</div>
+							<div>+7 (495) 789-28-03</div>
+							<div>info@archwood.ru</div>
+						</div>
+						<div class="footer__time">
+							<div class="footer__timeTitle">Время работы</div>
+							<div class="footer__timeWork">пн-пт 10:00 - 20:00</div>
+							<div class="footer__timeWork">сб-вс 11:00 - 19:00</div>
+						</div>
+						<div class="footer__rules">© 2018 Arch Wood. Паркет и керамогранит. Все права защищены.</div>
+					</div>
+					<div class="footer__containerRight">
+						<div class="footer__column footer__columnLeft">
+							<div class="footer__socialLinks"><a href="#" class="footer__socialLink__facebook"></a><a href="#" class="footer__socialLink__vk"></a><a href="#" class="footer__socialLink__instagram"></a><a href="#" class="footer__socialLink__d"></a><a href="#" class="footer__socialLink__youtube"></a></div><a href="#" class="footer__politics">Политика конфиденциальности</a>
+						</div>
+						<div class="footer__column footer__columnRight">
+							<button class="footer__feedback">Оставить заявку</button>
+							<div class="footer__column footer__alternateColumn"><a href="#" class="footer__creatorLogo"></a>
+								<div class="footer__creatorText">Разработка сайта</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
