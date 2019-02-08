@@ -19,5 +19,5 @@ $(".filter__clear").click(function(){
     console.log($(".list").find(".selected"));
     $(".list").find(".selected").removeClass("selected");
 	$(".list li:first-of-type").addClass("selected");
-    $(".current").html("Все");
+    $(".nice-select.filter__select .current").html("Все");
 });
